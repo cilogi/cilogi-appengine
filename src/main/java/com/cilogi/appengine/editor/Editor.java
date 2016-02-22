@@ -63,6 +63,7 @@ public class Editor implements Serializable {
     private String handle;
 
     @Getter
+    @Index
     private String guide;
 
     private Editor() {}
